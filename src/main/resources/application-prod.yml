@@ -1,0 +1,17 @@
+jodconverter:
+  local:
+    enabled: true
+    # 代表office主目录。如果未设置，则会自动检测 Office 安装目录，需要是最新版本的 LibreOffice。
+    officeHome: /opt/libreoffice7.1
+    # 要启动的 libreOffice 实例数量 - 每个给定端口一个。 所以这意味着 2
+    port-numbers: 2004
+    # 临时文件夹
+    working-dir: /tmp
+    format-options:
+      html:
+        store:
+          TEXT:
+            FilterOptions: EmbedImages
+logging:
+  level:
+    org.jodconverter: info

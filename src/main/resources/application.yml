@@ -1,0 +1,17 @@
+server:
+  port: 8980
+
+spring:
+  profiles:
+    # that is our default profile
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  application:
+    name: Converter
+  main:
+    banner-mode: "off"
+
+

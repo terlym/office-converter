@@ -1,0 +1,15 @@
+jodconverter:
+  local:
+    enabled: true
+    # 要启动的 libreOffice 实例数量 - 每个给定端口一个。 所以这意味着 2
+    port-numbers: 2005,2006
+    # 临时文件夹
+    working-dir: /tmp
+    format-options:
+      html:
+        store:
+          TEXT:
+            FilterOptions: EmbedImages
+logging:
+  level:
+    org.jodconverter: info
