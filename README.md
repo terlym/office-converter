@@ -4,7 +4,7 @@
 
 需要安装libreOffice 下载地址：https://zh-cn.libreoffice.org/
 
-安装参考[centos7安装libreOffice.md](centos7安装libreOffice.md.md)
+安装参考[centos7安装libreOffice.md](centos7安装libreOffice.md)
 
 ## maven
 `maven`核心依赖
