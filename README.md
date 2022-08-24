@@ -1,7 +1,11 @@
 # office文件格式转换demo工程
 
 ## 环境配置
-    1. 需要安装libreOffice 下载地址：https://zh-cn.libreoffice.org/，安装参考[centos7安装libreOffice.md](centos7安装libreOffice.md.md)
+
+需要安装libreOffice 下载地址：https://zh-cn.libreoffice.org/
+
+安装参考[centos7安装libreOffice.md](centos7安装libreOffice.md.md)
+
 ## maven
 `maven`核心依赖
 ```xml
